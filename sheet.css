@@ -1,0 +1,235 @@
+
+.w-7{
+    width: 7%;
+}
+
+.w-85{
+    width: 85%;
+}
+
+
+.h-2{
+    height: 2%;
+}
+
+
+.fw-mini-bold{
+    font-weight: 500 !important;
+}
+
+.fs-7{
+    font-size: 15px;
+}
+
+.bg-black{
+    background-color: rgb(8, 8, 8);
+}
+
+
+
+
+
+#nav a:hover {
+    color: red;
+}
+
+
+/* home section */
+
+.slideshow-1{
+    background-image: url(images/slideshow-1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.slideshow-2{
+    background-image: url(images/slideshow-2.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.slideshow-3{
+    background-image: url(images/slideshow-3.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+#home h2{
+    font-size:50px;
+}
+
+.carousel-control-prev{
+    width: 50px;
+    height: 50px;
+   
+}
+
+.carousel-control-next{
+    width: 50px;
+    height: 50px;
+   
+}
+
+.carousel-control-next {
+    left: 0;
+    top: 42% !important;
+  }
+
+
+.carousel-control-next, .carousel-control-prev{
+
+    top: 50%;
+}
+
+.carousel-control-prev:hover {
+    background-color: rgb(221, 105, 105);
+    transition: 0.3s;
+}
+
+.carousel-control-next:hover {
+    background-color: rgb(221, 105, 105);
+    transition: 0.3s;
+}
+
+
+
+
+
+/* about section */
+
+.title h3{
+    font-size: 2.6rem;
+    letter-spacing: 5px;
+
+
+}
+
+.title h2{
+    font-size: 4.5rem;
+    letter-spacing: 5px;
+    color: rgba(0, 0,0,0.07);
+
+}
+
+hr,h3{ 
+    transition: 0.5s;
+}
+
+.hr-hover:hover hr{
+    width: 11%;
+    transition: 0.5s;
+}
+
+
+/* team section */
+
+.member{
+    background-color: rgba(255, 16, 16, 0.4);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.member:hover {
+    opacity: 1;
+}
+
+.team img{
+    transition:   0.5s  ;
+
+}
+.team:hover img{
+    transform: scale(1.1);
+    transition:   0.5s  ;
+
+}
+
+
+
+
+
+/* services section */
+
+.mini-services:hover h3{
+    color: red;
+    transition:   0.3s  ;
+
+    
+}
+
+
+/* blog section */
+
+.item:hover h4{
+    color: red;
+}
+
+.owl-next, .owl-prev{
+    opacity: 0;
+}
+
+
+.owl-item{
+    opacity: 0.5;
+}
+
+.owl-item .text{
+    opacity: 0;
+}
+
+.center{
+    opacity: 1 ;
+    
+}
+
+.center .text{
+    opacity: 1 ;
+}
+
+.item img{
+    width: 120px !important;
+    position: relative;
+    left: 49%;
+    
+}
+
+
+/* contact section */
+
+
+.text-contact:hover h4{
+    color: red;
+}
+
+.form-control:focus {
+    border-color: red;
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25);
+}
+
+/* summary section */
+
+#summary img{
+    width: 60px;
+
+}
+
+.text-gray{
+    color: #b0b0b0;
+}
+
+#summary {
+    background-image: url(images/summary-bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#summary a:hover{
+    color: red;
+}
+
+
+ 
